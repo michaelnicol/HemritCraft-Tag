@@ -3,7 +3,7 @@ $(document).ready(function() {
   let check = 0;
   let arr;
   let backup = "Error 404, backup not found";
-let tags = {
+  let tags = {
    1: ["Grain tagging Docm77", "Grian Ep.", "https://youtu.be/-_ZLXKB8Njg" ,"Docm77 Ep.", "https://www.youtube.com/watch?v=7SHFXtvB-KI&feature=youtu.be"],
    2: ["Docm77 tagging Mumbo", "Docm77 Ep.", "https://youtu.be/fvEcoNvD-Zg?t=15m22s","Mumbo Ep.", "https://youtu.be/eiHToIo4xkk"],
    3: ["Mumbo tagging Grian", "Grian Ep.", "https://youtu.be/ArxIbTnQL8o?t=1m59s" ,"Mumbo Ep.", "https://youtu.be/KRBf4hsd7MA"],
@@ -14,14 +14,15 @@ let tags = {
    8: ["Impluse tagging Zedaph", "Impluse Ep.", "https://youtu.be/pVKsgE0YtN4" ,"Tango Ep.", "https://youtu.be/zwg_0wTKmec?t=9m3s"],
    9: ["Zedaph tagging Tango", "Zedaph Ep.", "https://youtu.be/DSrXC0L4mZs?t=29m8s" ,"Docm77 Ep.", "https://www.youtube.com/watch?v=dQw4w9WgXcQ"],
    10: ["Tango tagging Cub", "Tango Ep.", "https://youtu.be/LEBSFirM8Fw?t=16m43s" ,"Cub Ep.", "https://www.youtube.com/watch?v=dQw4w9WgXcQ"],
-   11: ["Cub tagging Xisuma", "Cub Ep. [none]", "" ,"Xisuma Ep.  [none]", ""],
-   12: ["Xisuma tagging EvilX", "Xisuma Ep.  [none]", "" ,"EvilX Ep. [none]", ""],
-   13: ["EvilX tagging iJevin", "EvilX Ep.  [none]", "" ,"iJevin Ep.  [none]", ""],
-   14: ["iJevin tagging iskall85", "Grian Ep.  [none]", "" ,"Docm77 Ep.  [none]", ""],
-   15: ["iskall85 Tagging Grian", "iskall85 Ep. [none]", "" ,"Grian Ep.  [none]", ""],
-   16: ["Grian tagging False", "Grian Ep. [none]", "" ,"False Ep.  [none]", ""],
-  17: ["False Tagging Biffa", "False Ep.  [none]", "" ,"Biffa Ep.  [none]", ""],
-   18: ["Biffa tagging [...]", "Biffa Ep.  [none]", "" ,"Biffa Ep.  [none]", ""]
+   11: ["Cub tagging Xisuma", "Cub Ep.", "https://www.youtube.com/watch?v=qfvKdudjbBY&feature=youtu.be" ,"Xisuma Ep. ", "https://clips.twitch.tv/SassyRespectfulPartridgePunchTrees;"],
+   12: ["Xisuma tagging EvilX", "Xisuma Ep. ", "https://youtu.be/59VQqOPVGEE" ,"EvilX Ep.", "https://youtu.be/59VQqOPVGEE"],
+   13: ["EvilX tagging iJevin", "EvilX Ep. ", "https://youtu.be/B-tuWHozOlY" ,"iJevin Ep.", "https://youtu.be/OOI-Lk7bgUQ"],
+   14: ["iJevin tagging iskall85", "Grian Ep. ", "https://youtu.be/svrvE5gtcaI" ,"iskall85 Ep.  [none]", "https://www.twitch.tv/videos/310838160"],
+   15: ["iskall85 Tagging Grian", "iskall85 Ep.", "https://youtu.be/61YeNDa-ZrQ" ,"Grian Ep.", "https://youtu.be/UuE0T21NjgE"],
+   16: ["Grian tagging False", "Grian Ep.", "https://youtu.be/n7R4FEjvSjU" ,"False Ep. ", "https://youtu.be/ONj9gRtc3_k"],
+   17: ["False Tagging Biffa", "False Ep. ", "https://youtu.be/vbcM6hu9y6I" ,"Biffa Ep. ", "https://youtu.be/uFnmNsMGW3Y"],
+   18: ["Biffa tagging Docm", "Biffa Ep. ", "https://youtu.be/u0qNhMQGxmg" ,"Biffa Ep. ", "https://youtu.be/u0qNhMQGxmg"],
+   19: ["Docm tagging Rendog", "Docm Ep. ", "https://youtu.be/1uc7aNKptL8" ,"Rendog Ep. ", "https://youtu.be/9wiO0Pq0-FQ"]
   }
 let backupObj = {
 }
