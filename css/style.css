@@ -17,6 +17,7 @@ a, a:hover {
   padding: 1%;
   box-shadow: 2px 2px 5px black;
 }
+
 h3 {
   font-size: 20px;
 }
@@ -112,13 +113,39 @@ width:80%;
 }
 @media screen and (max-width: 1200px) {
   .container {
-    width: 100%;
-    margin: 0;
+    width: 90%;
+    margin: 2% auto 2% auto;
+    max-width: unset;
   }
 }
 @media screen and (max-width: 767px) {
+  .container {
+    margin: 0 auto;
+    width: 100%;
+  }
+  .arrow-card-img {
+    transform: rotate(270deg);
+  }
+  .down {
+    transform: rotate(1deg);
+  }
+  .wrapper {
+    flex-direction: column;
+    width: 100%;
+  }
+  .player-card {
+ margin: 0 auto;
 }
-
+  .arrow-wrapper{
+    margin: 0 auto 0 auto;
+  }
+  hr {
+    display: none;
+  }
+  .stay-display {
+    display: block;
+  }
+}
 @media screen and (max-width: 479px) {
   hr {
     width: 100%;
